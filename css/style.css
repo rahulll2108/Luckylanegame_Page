@@ -1,32 +1,13 @@
-/* .navbar {
-    background-image: url('../img/bg12.jpg');
-    background-size: cover;
-    position: relative;
-    
-} */
-
 .bg-image {
     background-image: url('../img/bg12.jpg');
-    background-size: cover; /* Cover the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* No repeat */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 body{
     overflow-x: hidden ;
 }
-/* 
-body::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: -1;
-} */
-
 
 .bg-image nav{
     margin-top: 0px;
@@ -40,23 +21,21 @@ body::after {
 }
 
 .navbar-brand {
-    padding-top: 30px ; /* Add padding to the navbar brand in pixels */
-    padding-left: 80px ;
-    /* margin-right: 20px; */
+    padding-top: 30px;
+    padding-left: 80px;
     font-size: x-large;
 }
 
 .navbar-nav .nav-link {
-    padding-top: 30px ; /* Add padding to the navbar brand in pixels */
-    padding-left: 80px ;
-    margin: 0 10px; /* Add margin in pixels to create space between links */
+    padding-top: 30px;
+    padding-left: 80px;
+    margin: 0 10px;
     margin-right: 40px;
     font-size: large;
 }
 
 h1{
     font-weight: 700;
-    /* line-height: 5.5; */
     font-size: 60px;
     padding-top: 50px;
     margin-left: 10px;
@@ -71,7 +50,6 @@ h1{
 }
 
 footer{
-    /* margin-top: 50px; */
     padding: 35px;
 }
 
@@ -97,17 +75,14 @@ main{
 
 .star-icon{
     font-size: 60px;
-    /* padding: 4px; */
     margin-top: 20px;
     margin-left: -10px;
     color: #4e98c2;
 }
 
 main section .container{
-    /* background-color: rgb(2, 0, 114); */
     color: white;
-    background: linear-gradient(to right, #06243b, #0a1a4d); 
-    /* padding-top: 30px; */
+    background: linear-gradient(to right, #06243b, #0a1a4d);
 }
 
 main section .text{
@@ -123,7 +98,6 @@ main .popular{
 }
 
 .half-content-text{
-    /* width: 50%; */
     background-size: cover;
     color: aliceblue;
     padding: 50px;
@@ -138,7 +112,6 @@ main .popular{
 }
 
 .headtext h1{
-    /* line-height: 2.5; */
     font-size: xxx-large;
 }
 
@@ -146,10 +119,6 @@ main .popular{
     padding-top: 90px;
     text-align: center;
 }
-/* 
-.testimony{
-    padding-top: 90px;
-} */
 
 .blockquote {
     font-size: medium;
@@ -159,12 +128,7 @@ main .popular{
     width: 70px !important;
     height: 70px;
     margin: 30px auto;
-    /* padding: 20px !important; */
 }
-/* 
-.owl-carousel .owl-item img {
-    width: 2px;
-} */
 
 .card-body{
     padding: 10px 25px 10px 25px;
