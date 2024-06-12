@@ -42,6 +42,11 @@ h1{
     color: aliceblue;
 }
 
+.launch-btn{
+    text-align: center;
+    /* margin: 10px; */
+}
+
 .btn.btn-primary {
     font-size: 15px; 
     padding: 20px;
